@@ -1,0 +1,980 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 18px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.my-body{
+	background-image: url("../img/mainbg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+	background-attachment:fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 980px;
+    min-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href^="http"]:empty::before {
+    content: attr(href);
+}
+
+h1, h2, h3, h4{
+    font-weight: normal;
+}
+
+/* header */
+header {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 0 0 rgba(214, 214, 214, 1);
+    z-index: 100;
+}
+
+header h1 {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+
+header .nav-links {
+    float: right;
+    position: relative;
+}
+
+header .nav-links .link {
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+header .nav-links .link.active {
+    background: rgba(214, 214, 214, 0.2);
+}
+
+header .nav-links .nav-slide {
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    box-shadow: inset 0 -13px 10px -15px;
+    z-index: 1;
+}
+
+/* 内容部分 */
+section {
+    padding-top: 70px;
+}
+
+
+/* aboutme部分 */
+#aboutme {
+    position: relative;
+}
+
+#aboutme .slides {
+    position: relative;
+    height: 600px;
+    z-index: 98;
+}
+
+#aboutme .slides .slide {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#aboutme .slides .slide:not(:first-child) {
+	display: none;
+}
+
+#aboutme .slides .slide .warp {
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#aboutme .btns .btn {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -25px;
+    border-radius: 25px;
+    box-shadow: 0 0 2px 2px rgb(214, 214, 214);
+    z-index: 99;
+    cursor: pointer;
+}
+
+#aboutme .btns .btn .fa {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(214, 214, 214);
+}
+
+#aboutme .btns .pre {
+    left: 7%;
+}
+
+#aboutme .btns .next {
+    right: 7%;
+}
+
+#aboutme .slides .slide h2 {
+    font-size: 30px;
+}
+
+#aboutme .slides .slide .warp ul {
+    margin-top: 15px;
+}
+
+#aboutme .slides .slide .warp ul li {
+    margin-top: 5px;
+    color: #666;
+}
+
+#aboutme .slides .slide .warp ul li *:not(:first-child) {
+    margin-left: 10px;
+}
+
+#aboutme .points {
+    width: 88px;
+    height: 16px;
+    margin: -8px -40px;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    z-index: 99;
+}
+
+#aboutme .points .point {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #A4DAEC;
+    opacity: .5;
+    float: left;
+    cursor: pointer;
+}
+
+#aboutme .points .point:not(:first-child) {
+    margin-left: 20px;
+}
+
+#aboutme .points .point.active {
+    background-color: #55C1E5;
+    opacity: 1;
+}
+
+/* 技能部分 */
+#ability {
+    height: 600px;
+}
+
+#ability .container {
+    display: table;
+    height: 100%;
+}
+
+#ability .container .warp {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#ability h2, #ability h3 {
+    text-align: center;
+}
+
+#ability .ability-list{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: darkgray;
+}
+
+#ability .ability-list>p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+}
+
+#ability .ability-list>li{
+    height: 60px;
+    width: 100%;
+    border-left: 2px solid #356;
+    position: absolute;
+    opacity: 0;
+}
+
+#ability .ability-list>li>h4{
+    padding-left: 5px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+#ability .ability-list>li:nth-last-child(1) {
+    background: #1AA094;
+}
+
+#ability .ability-list>li:nth-last-child(2) {
+    background: #31a010;
+}
+
+#ability .ability-list>li:nth-last-child(3) {
+    background: #2613a0;
+}
+
+#ability .ability-list>li:nth-last-child(4) {
+    background: #a00080;
+}
+
+#ability .ability-list>li:nth-last-child(5) {
+    background: #d5994c;
+}
+
+
+.warp .title{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.warp .title .title_en
+{
+    width: 170px;
+    text-align: center;
+    margin: 3px auto;
+    padding: 5px 0;
+    border-top: 2px solid #f00;
+}
+
+.warp .title .title_en h2
+{
+    font-family: "allerbold";
+    font-weight: bold;
+    color: #f00;
+    text-transform: uppercase;
+    font-size: 20px !important;
+}
+
+/*基本信息样式*/
+.message_head_content {
+    margin: 0 auto;
+    position: relative;
+    width: 153.2px;
+    height: 153.2px;
+    cursor: pointer;
+}
+
+.message_head_content img {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    border: 2px #CCCCCC solid;
+    border-radius: 75px;
+    position: absolute;
+    -webkit-transition: box-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.message_body{
+    width: 100%;
+    height: auto;
+}
+
+.message_body .my_motto{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.message_body .message_box{
+    border-top: 2px solid #ccc;
+    margin: 15px auto;
+}
+
+.message_box p {
+    margin: 15px auto;
+    font-size: 15px;
+}
+
+.myicon {
+    width: auto;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px, 20px;
+    font-style: inherit;
+    text-underline: none;
+}
+
+.blog{
+    background-image: url("../img/icon/blog.png");
+}
+
+.web{
+    background-image: url("../img/icon/web.png");
+}
+
+.github{
+    background-image: url("../img/icon/git.png");
+}
+
+
+/*基本信息样式*/
+
+/*工作经历*/
+#experience{
+    position: relative;
+}
+
+#experience .vertical-slides {
+    position: relative;
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    z-index: 100;
+}
+
+#experience .vertical-slides>.vslide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1AA094;
+    display: table;
+}
+
+#experience .vertical-slides>.vslide>.warp {
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url("../img/work.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#experience .vertical-slides>.vslide>.warp .work-content{
+	width: 55%;
+	height: 100%;
+	overflow: auto;
+	float: left;
+}
+
+#experience .vertical-slides>.vslide>.warp .work-content p{
+	font-size: 14px;
+}
+#experience .vertical-slides>.vslide>.warp .work-content ul{
+	margin-top: 35px;
+	list-style-type: circle;
+}
+
+#experience .vertical-slides>.vslide>.warp .work-content ul li{
+	text-align: left;
+	font-size: 18px;
+	font-family: FZYaoti,STLiti,STXingkai, sans-serif;
+	margin:0px 40px;
+}
+
+#experience .ebtns .btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 24px;
+    border-radius: 25px;
+    box-shadow: 0 0 2px 2px rgb(214, 214, 214);
+    z-index: 120;
+    cursor: pointer;
+}
+
+#experience .ebtns .btn .fa {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(119, 117, 117);
+}
+
+#experience .ebtns .pre {
+    left: 54%;
+    top: 0px;
+}
+
+#experience .ebtns .next {
+    right: 36%;
+    bottom: 0px;
+}
+
+/*工作经历*/
+
+
+/*自我介绍*/
+#myself{
+    position: relative;
+}
+
+#myself .self {
+    position: relative;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+#myself .self .self-content{
+    display: inline-block;
+    width: 90px;
+    height: 100%;
+    margin: 0 40px;
+    position: relative;
+}
+
+#myself .self .self-content .circle {
+    box-shadow: 0 0 0 4px #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transition: background 1s, color 1s, box-shadow 1s;
+    transition: background 1s, color 1s, box-shadow 1s;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+#myself .self .self-content>.describe{
+    font-style: inherit;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#myself .self .self-content>.describe p{
+    padding-top: 3px;
+    text-align: right;
+}
+
+#myself .self .self-content>.describe p:before{
+    display: block;
+    content: "";
+    background: #ccc;
+    height: 2px;
+    width: 100%;
+    bottom: 25px;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+#myself .info{
+    height: 160px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#myself .info:before {
+    top: 0;
+    left: 0;
+    border-top: 2px solid #5686D6;
+    border-left: 2px solid #5686D6;
+}
+
+#myself .info:after {
+    bottom: 0;
+    right: 0;
+    border-right: 2px solid #5686D6;
+    border-bottom: 2px solid #5686D6;
+}
+
+#myself .info:before, #myself .info:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    content: "";
+}
+
+#myself .info p{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+
+/*自我介绍*/
+
+
+/*技能样式*/
+
+#skill_list {
+    margin: 20px auto;
+    width: 100%;
+    font-size: 16px;
+    height: 400px;
+}
+
+.skill_list_content {
+    float: left;
+    margin: 0 5%;
+    position: relative;
+    height: 400px;
+    visibility: hidden;
+}
+
+#skill_info {
+    margin: 50px auto 0;
+    width: 100%;
+    line-height: 30px;
+}
+
+#skill_info p {
+    text-align: center;
+}
+
+#skill_list ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.skill_icon {
+    cursor: pointer;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    margin: 30px auto;
+    webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: transform .25s;
+}
+
+.skill_icon:hover {
+    webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform .25s;
+}
+
+#skill_icon_java {
+    background-image: url(../img/icon/java.png);
+    background-repeat: no-repeat;
+    background-size: 90px, 100px;
+}
+
+#skill_icon_html {
+    background: url(../img/icon/html.png) no-repeat;
+}
+
+#skill_icon_css {
+    background: url(../img/icon/css.png) no-repeat;
+}
+
+#skill_icon_js {
+    background: url(../img/icon/js.png) no-repeat;
+}
+
+#skill_icon_react {
+    background: url(../img/icon/react.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 90px, 100px;
+}
+
+.skill_name {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.skill_flag {
+    margin: 20px auto;
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/flag.png);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.skill_flag_scale {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.skill_int {
+    position: absolute;
+    top: 250px;
+    width: 320px;
+    left: -136px;
+    font-size: 14px;
+    line-height: 20px;
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+    background: #c8c8dc;
+}
+
+.skill_int_first {
+    left: 10px;
+}
+
+.skill_int_last {
+    left: -150px;
+}
+
+.skill_int li {
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.skill_scale {
+    -webkit-animation: skill_scale 1s;
+    -moz-animation: lskill_scale 1s;
+    -o-animation: skill_scale 1s;
+    animation: skill_scale 1s;
+    visibility: visible;
+}
+
+@-webkit-keyframes skill_scale {
+    0% {
+        opacity: 0.1;
+        -webkit-transform:scale(0.3);
+        transform:scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-moz-keyframes skill_scale {
+    0% {
+        opacity: 0.1;
+        transform:scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@-o-keyframes skill_scale {
+    0% {
+        opacity: 0.1;
+        transform:scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes skill_scale {
+    0% {
+        opacity: 0.1;
+        transform:scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/*技能样式*/
+
+/*联系我*/
+#contact-me {
+    width: 100%;
+    font-size: 16px;
+    height: 400px;
+    position: relative;
+}
+
+#contact-me>.content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact-me>.content>.big-content{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px auto;
+}
+
+#contact-me>.content>.big-content *{
+    font-size: 30px;
+}
+/*联系我*/
+
+.contact_scale {
+    visibility: hidden;
+    line-height: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    border: #ccc 2px solid;
+}
+.footer {
+    line-height: 24px;
+    font-size: 8px;
+    text-align: center;
+    color: #666;
+}
+footer div a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 8px;
+    color: #666;
+}
+footer div a:hover {
+    color: #930709;
+}
+@-webkit-keyframes fade_in {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-moz-keyframes fade_in {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-o-keyframes fade_in {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fade_in {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.fade_in {
+    -webkit-animation: fade_in 1s;
+    -moz-animation: fade_in 1s;
+    -o-animation: fade_in 1s;
+    animation: fade_in 1s;
+    visibility: visible;
+}
+
+/*精彩展示*/
+#more-content {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+#more-content iframe {
+    width: 100%;
+    height: 100%;
+}
+/*精彩展示*/
+
+/*项目简介*/
+#my-project {
+	position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#my-project .slideOutTip {
+	/* The main wrapping div of the slideout tips */
+	position: relative;
+	padding:3px;
+	background-color:#c7c6c6;
+	font-size:13px;
+	color:white;
+	overflow:hidden;
+	height:28px;
+	margin-left: 10px;
+}
+
+#my-project .left-div,.right-div {
+	position: relative;
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#my-project .p-div {
+	margin: 5px;
+	width: 470px;
+	height: auto;
+}
+
+#my-project .slideOutTip:hover {
+	/* Applying a CSS3 outer glow on hover */
+	-moz-box-shadow:0 0 1px #999;
+	-webkit-box-shadow:0 0 1px #999;
+	box-shadow:0 0 1px #999;
+}
+/* The holder for the title and the icon: */
+#my-project .tipVisible {
+	cursor:pointer;
+	height:22px;
+}
+#my-project .tipTitle {
+	float:left;
+	font-family: STLiti,STXingkai,FZYaoti, sans-serif;
+	font-size:25px;
+	white-space:nowrap;
+	line-height:25px;
+	padding-right:5px;
+}
+
+#my-project .tipTitle .tipDate{
+	margin-left: 10px;
+	font-family: SimHei,LiSu,FZYaoti, sans-serif;
+}
+
+#my-project .tipIcon {
+	width:23px;
+	height:23px;
+	float:left;
+	background-color:#61b035;
+	border:1px solid #70c244;
+	margin-right:8px;
+	/* CSS3 Rounded corners */
+	
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+}
+#my-project .plusIcon {
+	/* The plus icon */
+	width:13px;
+	height:13px;
+	background:url('../img/icon/plus.gif') no-repeat center center;
+	margin:4px;
+	/* Defining a CSS3 animation. Currently only works in Chrome and Safari */
+	-webkit-transition: -webkit-transform 0.2s linear;
+	-moz-transition: -moz-transform 0.2s linear;
+	transition: transform 0.2s linear;
+}
+#my-project .slideOutTip .isOpened {
+	z-index: 1;
+}
+
+#my-project .slideOutTip .isOpened .plusIcon {
+	/* Applying a CSS3 rotation  to the opened slideouts*/
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+/* Special rules for the left and top - opening versions */
+
+#my-project .slideOutContent {
+	/* Hiding the div with the slide out content: */
+	display:none;
+	padding:10px;
+	font-size:11px;
+	position: relative;
+}
+
+#my-project .slideOutContent .content{
+	width: 450px;
+	height: auto;
+	position: relative;
+}
+
+#my-project .slideOutContent .content table {
+	width: 100%;
+	height: auto;
+	display: table;
+}
+
+#my-project .slideOutContent .content table td {
+	vertical-align: top;
+	padding: 5px;
+}
+
+#my-project .slideOutContent .content table label{
+	font: 16px/1.5 Tahoma,Helvetica,Arial,'华文彩云',sans-serif;
+}
+
+#my-project .slideOutContent .content table p,
+	#my-project .slideOutContent .content table ul{
+	width: 350px;
+    height: auto;
+    padding: 5px;
+    color: black;
+    background: #f9f9f9;
+    border: 1px solid;
+    border-color: #c6c6c6 #eee #eee #c6c6c6;
+    font: 18px/1.5 Tahoma,Helvetica,Arial,'华文行楷',sans-serif;
+}
+
+#my-project .slideOutContent .content table ul {
+	counter-reset:section;
+}
+ 
+#my-project .slideOutContent .content table ul li {
+	font: 18px/1.5 Tahoma,Helvetica,Arial,'华文行楷',sans-serif;
+}
+#my-project .slideOutContent .content table ul li:BEFORE {
+	counter-increment:section;
+	content:counter(section) "、";
+}
+
+#my-project .slideOutTip.isOpened {
+	z-index: 1;
+}
+#my-project .slideOutTip.isOpened .plusIcon {
+	/* Applying a CSS3 rotation  to the opened slideouts*/
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+/*项目简介*/ 
