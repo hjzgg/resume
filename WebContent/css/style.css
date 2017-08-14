@@ -6,10 +6,20 @@
 }
 
 .my-body{
-	background-image: url("../img/mainbg.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%, 100%;
-	background-attachment:fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/mainbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .my-body {
+        width: 1150px;
+        height: 100%;
+    }
 }
 
 ul {
@@ -46,6 +56,13 @@ header {
     box-shadow: 0 1px 0 0 rgba(214, 214, 214, 1);
     z-index: 100;
 }
+
+@media screen and (max-width: 1150px) {
+    header {
+        overflow-x: scroll;
+    }
+}
+
 
 header h1 {
     float: left;
@@ -110,7 +127,7 @@ section {
 }
 
 #aboutme .slides .slide:not(:first-child) {
-	display: none;
+    display: none;
 }
 
 #aboutme .slides .slide .warp {
@@ -394,25 +411,25 @@ section {
 }
 
 #experience .vertical-slides>.vslide>.warp .work-content{
-	width: 55%;
-	height: 100%;
-	overflow: auto;
-	float: left;
+    width: 55%;
+    height: 100%;
+    overflow: auto;
+    float: left;
 }
 
 #experience .vertical-slides>.vslide>.warp .work-content p{
-	font-size: 14px;
+    font-size: 14px;
 }
 #experience .vertical-slides>.vslide>.warp .work-content ul{
-	margin-top: 35px;
-	list-style-type: circle;
+    margin-top: 35px;
+    list-style-type: circle;
 }
 
 #experience .vertical-slides>.vslide>.warp .work-content ul li{
-	text-align: left;
-	font-size: 18px;
-	font-family: FZYaoti,STLiti,STXingkai, sans-serif;
-	margin:0px 40px;
+    text-align: left;
+    font-size: 18px;
+    font-family: FZYaoti,STLiti,STXingkai, sans-serif;
+    margin:0px 40px;
 }
 
 #experience .ebtns .btn {
@@ -824,129 +841,130 @@ footer div a:hover {
 
 /*项目简介*/
 #my-project {
-	position: relative;
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 250px;
+    overflow: scroll;
 }
 
 #my-project .slideOutTip {
-	/* The main wrapping div of the slideout tips */
-	position: relative;
-	padding:3px;
-	background-color:#c7c6c6;
-	font-size:13px;
-	color:white;
-	overflow:hidden;
-	height:28px;
-	margin-left: 10px;
+    /* The main wrapping div of the slideout tips */
+    position: relative;
+    padding:3px;
+    background-color:#c7c6c6;
+    font-size:13px;
+    color:white;
+    overflow:hidden;
+    height:28px;
+    margin-left: 10px;
 }
 
 #my-project .left-div,.right-div {
-	position: relative;
-	width: 50%;
-	height: auto;
-	float: left;
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: left;
 }
 
 #my-project .p-div {
-	margin: 5px;
-	width: 470px;
-	height: auto;
+    margin: 5px;
+    width: 470px;
+    height: auto;
 }
 
 #my-project .slideOutTip:hover {
-	/* Applying a CSS3 outer glow on hover */
-	-moz-box-shadow:0 0 1px #999;
-	-webkit-box-shadow:0 0 1px #999;
-	box-shadow:0 0 1px #999;
+    /* Applying a CSS3 outer glow on hover */
+    -moz-box-shadow:0 0 1px #999;
+    -webkit-box-shadow:0 0 1px #999;
+    box-shadow:0 0 1px #999;
 }
 /* The holder for the title and the icon: */
 #my-project .tipVisible {
-	cursor:pointer;
-	height:22px;
+    cursor:pointer;
+    height:22px;
 }
 #my-project .tipTitle {
-	float:left;
-	font-family: STLiti,STXingkai,FZYaoti, sans-serif;
-	font-size:25px;
-	white-space:nowrap;
-	line-height:25px;
-	padding-right:5px;
+    float:left;
+    font-family: STLiti,STXingkai,FZYaoti, sans-serif;
+    font-size:25px;
+    white-space:nowrap;
+    line-height:25px;
+    padding-right:5px;
 }
 
 #my-project .tipTitle .tipDate{
-	margin-left: 10px;
-	font-family: SimHei,LiSu,FZYaoti, sans-serif;
+    margin-left: 10px;
+    font-family: SimHei,LiSu,FZYaoti, sans-serif;
 }
 
 #my-project .tipIcon {
-	width:23px;
-	height:23px;
-	float:left;
-	background-color:#61b035;
-	border:1px solid #70c244;
-	margin-right:8px;
-	/* CSS3 Rounded corners */
-	
-	-moz-border-radius:1px;
-	-webkit-border-radius:1px;
-	border-radius:1px;
+    width:23px;
+    height:23px;
+    float:left;
+    background-color:#61b035;
+    border:1px solid #70c244;
+    margin-right:8px;
+    /* CSS3 Rounded corners */
+    
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    border-radius:1px;
 }
 #my-project .plusIcon {
-	/* The plus icon */
-	width:13px;
-	height:13px;
-	background:url('../img/icon/plus.gif') no-repeat center center;
-	margin:4px;
-	/* Defining a CSS3 animation. Currently only works in Chrome and Safari */
-	-webkit-transition: -webkit-transform 0.2s linear;
-	-moz-transition: -moz-transform 0.2s linear;
-	transition: transform 0.2s linear;
+    /* The plus icon */
+    width:13px;
+    height:13px;
+    background:url('../img/icon/plus.gif') no-repeat center center;
+    margin:4px;
+    /* Defining a CSS3 animation. Currently only works in Chrome and Safari */
+    -webkit-transition: -webkit-transform 0.2s linear;
+    -moz-transition: -moz-transform 0.2s linear;
+    transition: transform 0.2s linear;
 }
 #my-project .slideOutTip .isOpened {
-	z-index: 1;
+    z-index: 1;
 }
 
 #my-project .slideOutTip .isOpened .plusIcon {
-	/* Applying a CSS3 rotation  to the opened slideouts*/
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	transform:rotate(45deg);
+    /* Applying a CSS3 rotation  to the opened slideouts*/
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
 }
 /* Special rules for the left and top - opening versions */
 
 #my-project .slideOutContent {
-	/* Hiding the div with the slide out content: */
-	display:none;
-	padding:10px;
-	font-size:11px;
-	position: relative;
+    /* Hiding the div with the slide out content: */
+    display:none;
+    padding:10px;
+    font-size:11px;
+    position: relative;
 }
 
 #my-project .slideOutContent .content{
-	width: 450px;
-	height: auto;
-	position: relative;
+    width: 450px;
+    height: auto;
+    position: relative;
 }
 
 #my-project .slideOutContent .content table {
-	width: 100%;
-	height: auto;
-	display: table;
+    width: 100%;
+    height: auto;
+    display: table;
 }
 
 #my-project .slideOutContent .content table td {
-	vertical-align: top;
-	padding: 5px;
+    vertical-align: top;
+    padding: 5px;
 }
 
 #my-project .slideOutContent .content table label{
-	font: 16px/1.5 Tahoma,Helvetica,Arial,'华文彩云',sans-serif;
+    font: 16px/1.5 Tahoma,Helvetica,Arial,'华文彩云',sans-serif;
 }
 
 #my-project .slideOutContent .content table p,
-	#my-project .slideOutContent .content table ul{
-	width: 350px;
+    #my-project .slideOutContent .content table ul{
+    width: 350px;
     height: auto;
     padding: 5px;
     color: black;
@@ -957,24 +975,24 @@ footer div a:hover {
 }
 
 #my-project .slideOutContent .content table ul {
-	counter-reset:section;
+    counter-reset:section;
 }
  
 #my-project .slideOutContent .content table ul li {
-	font: 18px/1.5 Tahoma,Helvetica,Arial,'华文行楷',sans-serif;
+    font: 18px/1.5 Tahoma,Helvetica,Arial,'华文行楷',sans-serif;
 }
 #my-project .slideOutContent .content table ul li:BEFORE {
-	counter-increment:section;
-	content:counter(section) "、";
+    counter-increment:section;
+    content:counter(section) "、";
 }
 
 #my-project .slideOutTip.isOpened {
-	z-index: 1;
+    z-index: 1;
 }
 #my-project .slideOutTip.isOpened .plusIcon {
-	/* Applying a CSS3 rotation  to the opened slideouts*/
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	transform:rotate(45deg);
+    /* Applying a CSS3 rotation  to the opened slideouts*/
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
 }
 /*项目简介*/ 
