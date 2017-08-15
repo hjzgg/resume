@@ -412,5 +412,15 @@
     </div>
 </section>
 
+<script type="text/javascript">
+    $(function(){
+        let url = window.location.toString();
+        let id = url.split(“#”)[1];
+        if(id) {
+            $(window).scrollTop($(“#”+id).offset().top;);
+        }
+    });
+</script>
+
 </body>
 </html>
