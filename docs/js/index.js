@@ -165,7 +165,7 @@ function project() {
 }
 
 $(function () {
-	//头像
+    //头像
     $(".message_head_content").mouseover(function () {
         $(this).find("#head_one").stop().animate({opacity: 0}, 300);
         $(this).find("#head_two").stop().animate({opacity: 1}, 300);
@@ -175,22 +175,6 @@ $(function () {
     });
 
     //专业技能
-
-    // $(".skill_icon").click(function(){
-    //     $(".skill_int").each(function(){
-    //         if($(this).is(":visible")){
-    //             $(this).slideUp(200);
-    //             $(this).prev().removeClass("skill_flag_scale");
-    //         }
-    //     });
-    //     if($(this).siblings(".skill_int").is(":hidden")){
-    //         $(this).siblings(".skill_int").slideDown(400);
-    //         $(this).siblings(".skill_flag").addClass("skill_flag_scale");
-    //     }else{
-    //         $(this).siblings(".skill_int").slideUp(200);
-    //         $(this).siblings(".skill_flag").removeClass("skill_flag_scale");
-    //     }
-    // });
     var skill_mastery = [90, 80, 75, 85, 85];
     $(".skill_icon").click(function () {
         if ($(this).siblings(".skill_int").is(":visible")) {
