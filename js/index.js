@@ -39,12 +39,12 @@ function project() {
 	
 	//加载 p-div中的内容
 	$('#my-project .p-div .content').each(function(index){
-		// $.ajax( {
-		//     url: 'resume/../project_template/project' + index + '.html', //这里是静态页的地址
-		//     type: "GET", //静态页用get方法，否则服务器会抛出405错误
-		//     success: (data)=>{$(this).html(data);},
-		//     error: (data)=>{$(this).html('<p>加载错误!!!</p>');}
-		// });
+		$.ajax( {
+		    url: 'resume/../project_template/project' + index + '.html', //这里是静态页的地址
+		    type: "GET", //静态页用get方法，否则服务器会抛出405错误
+		    success: (data)=>{$(this).html(data);},
+		    error: (data)=>{$(this).html('<p>加载错误!!!</p>');}
+		});
 	});
 
     var myProjectDivH = $('#my-project').height;
