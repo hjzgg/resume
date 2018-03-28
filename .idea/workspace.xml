@@ -2,116 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1027978-1b66-4ff1-aaf1-e0b6a874c684" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jst.j2ee.ejb.annotations.xdoclet.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/ball/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/project_template/project0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/Music.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/css/bg.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/css/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/css/buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/css/noise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/js/background.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/js/ball.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ball/js/jquery-3.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/headImg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/headImg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/git.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/html.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/java.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/js.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/react.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/icon/web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/mainbg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/work.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jquery-3.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jquery.animateNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project_template/project9.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/Music.mp3" afterPath="$PROJECT_DIR$/ball/Music.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/css/bg.css" afterPath="$PROJECT_DIR$/ball/css/bg.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/css/bg.jpg" afterPath="$PROJECT_DIR$/ball/css/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/css/buttons.css" afterPath="$PROJECT_DIR$/ball/css/buttons.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/css/noise.png" afterPath="$PROJECT_DIR$/ball/css/noise.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/js/background.js" afterPath="$PROJECT_DIR$/ball/js/background.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/js/ball.js" afterPath="$PROJECT_DIR$/ball/js/ball.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/ball/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/ball/js/jquery-3.1.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/css/font-awesome.css" afterPath="$PROJECT_DIR$/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/headImg1.jpg" afterPath="$PROJECT_DIR$/img/headImg1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/headImg2.jpg" afterPath="$PROJECT_DIR$/img/headImg2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/blog.png" afterPath="$PROJECT_DIR$/img/icon/blog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/css.png" afterPath="$PROJECT_DIR$/img/icon/css.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/flag.png" afterPath="$PROJECT_DIR$/img/icon/flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/git.png" afterPath="$PROJECT_DIR$/img/icon/git.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/html.png" afterPath="$PROJECT_DIR$/img/icon/html.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/java.png" afterPath="$PROJECT_DIR$/img/icon/java.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/js.png" afterPath="$PROJECT_DIR$/img/icon/js.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/plus.gif" afterPath="$PROJECT_DIR$/img/icon/plus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/react.png" afterPath="$PROJECT_DIR$/img/icon/react.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/icon/web.png" afterPath="$PROJECT_DIR$/img/icon/web.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/mainbg.jpg" afterPath="$PROJECT_DIR$/img/mainbg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/img/work.jpg" afterPath="$PROJECT_DIR$/img/work.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.1.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/js/jquery.animateNumber.js" afterPath="$PROJECT_DIR$/js/jquery.animateNumber.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project1.html" afterPath="$PROJECT_DIR$/project_template/project1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project10.html" afterPath="$PROJECT_DIR$/project_template/project10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project2.html" afterPath="$PROJECT_DIR$/project_template/project2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project3.html" afterPath="$PROJECT_DIR$/project_template/project3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project4.html" afterPath="$PROJECT_DIR$/project_template/project4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project5.html" afterPath="$PROJECT_DIR$/project_template/project5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project6.html" afterPath="$PROJECT_DIR$/project_template/project6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project7.html" afterPath="$PROJECT_DIR$/project_template/project7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project8.html" afterPath="$PROJECT_DIR$/project_template/project8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/project_template/project9.html" afterPath="$PROJECT_DIR$/project_template/project9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/ball/index.html" afterPath="$PROJECT_DIR$/ball/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/project_template/project0.html" afterPath="$PROJECT_DIR$/project_template/project0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/project_template/project11.html" afterPath="$PROJECT_DIR$/project_template/project11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/project_template/project12.html" afterPath="$PROJECT_DIR$/project_template/project12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -138,12 +30,12 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="192" column="38" lean-forward="true" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+            <state relative-caret-position="-95">
+              <caret line="178" column="109" lean-forward="false" selection-start-line="178" selection-start-column="109" selection-end-line="178" selection-end-column="109" />
               <folding>
-                <marker date="1522260720000" expanded="true" signature="608:907" ph="..." />
-                <marker date="1522260720000" expanded="true" signature="643:823" ph="..." />
-                <marker date="1522260720000" expanded="true" signature="862:897" ph="..." />
+                <marker date="1522261858000" expanded="true" signature="608:907" ph="..." />
+                <marker date="1522261858000" expanded="true" signature="643:823" ph="..." />
+                <marker date="1522261858000" expanded="true" signature="862:897" ph="..." />
               </folding>
             </state>
           </provider>
@@ -269,15 +161,16 @@
       <option name="presentableId" value="Default" />
       <updated>1522171314513</updated>
       <workItem from="1522171317200" duration="944000" />
-      <workItem from="1522250645799" duration="5183000" />
+      <workItem from="1522250645799" duration="6008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6127000" />
+    <option name="totallyTimeSpent" value="6952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -285,7 +178,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -321,9 +214,9 @@
         <state relative-caret-position="3600">
           <caret line="240" column="29" lean-forward="false" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="29" />
           <folding>
-            <marker date="1522260720000" expanded="true" signature="608:907" ph="..." />
-            <marker date="1522260720000" expanded="true" signature="643:823" ph="..." />
-            <marker date="1522260720000" expanded="true" signature="862:897" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="608:907" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="643:823" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="862:897" ph="..." />
           </folding>
         </state>
       </provider>
@@ -385,12 +278,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="192" column="38" lean-forward="true" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+        <state relative-caret-position="-95">
+          <caret line="178" column="109" lean-forward="false" selection-start-line="178" selection-start-column="109" selection-end-line="178" selection-end-column="109" />
           <folding>
-            <marker date="1522260720000" expanded="true" signature="608:907" ph="..." />
-            <marker date="1522260720000" expanded="true" signature="643:823" ph="..." />
-            <marker date="1522260720000" expanded="true" signature="862:897" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="608:907" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="643:823" ph="..." />
+            <marker date="1522261858000" expanded="true" signature="862:897" ph="..." />
           </folding>
         </state>
       </provider>

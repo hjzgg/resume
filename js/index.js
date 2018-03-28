@@ -167,6 +167,7 @@ function project() {
 		 * view:
 		 */
         var slideOutTipH = slideOut.outerHeight() + tip.data('origHeight');
+        var leftOrRightDivH = Math.max(leftDiv.height(), rightDiv.height());
 		tip.addClass('isOpened').animate({
 			width	: Math.max(slideOut.outerWidth(),tip.data('origWidth')),
 			height	: slideOutTipH
@@ -174,8 +175,8 @@ function project() {
 			slideOut.fadeIn();
 		});
 
-		if(slideOutTipH > myProjectDivH) {
-            $('#my-project').animate({height: slideOutTipH});
+		if(slideOutTipH > myProjectDivH || leftOrRightDivH > myProjectDivH) {
+            $('#my-project').animate({height: slideOutTipH > leftOrRightDivH ? slideOutTipH : leftOrRightDivH});
         }
 
 	}).bind('slideIn',function(){
