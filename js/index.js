@@ -191,7 +191,10 @@ function project() {
 			},function(){
 				tip.removeClass('isOpened');
 			});
-            $('#my-project').animate({height: myProjectDivH});
+
+			if(Math.max(leftDiv.height(), rightDiv.height()) < myProjectDivH) {
+                $('#my-project').animate({height: myProjectDivH});
+            }
 		});
 
 	});
