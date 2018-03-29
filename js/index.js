@@ -47,7 +47,7 @@ function project() {
 		});
 	});
 
-    var myProjectDivH = $('#my-project').height;
+    var myProjectDivH = $('#my-project').height();
 	//将p-div中的内容放到 left-div（奇数） 和 right-div(偶数)
 	var leftDiv = $('<div class="left-div"></div>');
 	var rightDiv = $('<div class="right-div"></div>');
