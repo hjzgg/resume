@@ -47,7 +47,6 @@ function project() {
 		});
 	});
 
-    var myProjectDivH = $('#my-project').height();
 	//将p-div中的内容放到 left-div（奇数） 和 right-div(偶数)
 	var leftDiv = $('<div class="left-div"></div>');
 	var rightDiv = $('<div class="right-div"></div>');
@@ -166,19 +165,13 @@ function project() {
 		 * Resize the slideout to fit the content, which is then faded into
 		 * view:
 		 */
-        var slideOutTipH = slideOut.outerHeight() + tip.data('origHeight');
-        var leftOrRightDivH = Math.max(leftDiv.height(), rightDiv.height());
 		tip.addClass('isOpened').animate({
 			width	: Math.max(slideOut.outerWidth(),tip.data('origWidth')),
-			height	: slideOutTipH
+			height	: slideOut.outerHeight() + tip.data('origHeight')
 		},function(){
-			slideOut.fadeIn();
+            $('#my-project').animate({height: Math.max(leftDiv.height(), rightDiv.height())});
+            slideOut.fadeIn();
 		});
-
-		if(slideOutTipH > myProjectDivH || leftOrRightDivH > myProjectDivH) {
-            $('#my-project').animate({height: slideOutTipH > leftOrRightDivH ? slideOutTipH : leftOrRightDivH});
-        }
-
 	}).bind('slideIn',function(){
 		var tip = $(this);
 
@@ -190,11 +183,8 @@ function project() {
 				height	: tip.data('origHeight')
 			},function(){
 				tip.removeClass('isOpened');
+                $('#my-project').animate({height: Math.max(leftDiv.height(), rightDiv.height())}, "fast");
 			});
-
-			if(Math.max(leftDiv.height(), rightDiv.height()) < myProjectDivH) {
-                $('#my-project').animate({height: myProjectDivH});
-            }
 		});
 
 	});
