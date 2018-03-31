@@ -15,9 +15,9 @@
 }
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
     .my-body {
-        width: 1150px;
+        width: 1250px;
         height: 100%;
     }
 }
@@ -57,7 +57,7 @@ header {
     z-index: 100;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
     header {
         overflow-x: scroll;
     }
@@ -215,7 +215,7 @@ section {
 
 /* 技能部分 */
 #ability {
-    height: 600px;
+    height: auto;
 }
 
 #ability .container {
@@ -571,7 +571,7 @@ section {
 }
 
 .skill_list_content {
-    float: left;
+    display: inline-block;
     margin: 0 5%;
     position: relative;
     height: 400px;
