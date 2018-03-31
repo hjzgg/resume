@@ -169,6 +169,7 @@ section {
 
 #aboutme .slides .slide h2 {
     font-size: 30px;
+    display: inline-block;
 }
 
 #aboutme .slides .slide .warp ul {
@@ -290,6 +291,18 @@ section {
     width: 100%;
     height: 60px;
     margin-bottom: 30px;
+}
+
+.warp .title-pre{
+    margin-left: 20%;
+    margin-top: -80px;
+    float: left;
+}
+
+.warp .title-next{
+    float: right;
+    margin-top: -80px;
+    margin-right: 20%;
 }
 
 .warp .title .title_en

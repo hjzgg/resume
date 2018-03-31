@@ -191,6 +191,7 @@ function project() {
 }
 
 $(function () {
+
     //头像
     $(".message_head_content").mouseover(function () {
         $(this).find("#head_one").stop().animate({opacity: 0}, 300);
@@ -283,7 +284,16 @@ $(function () {
     var $experience = $('#experience');
 
     var $slides = $aboutme.find('.slides .slide');
+    var $titleaction = $aboutme.find(".warp .title-pre,.title-next");
     var $vslides = $experience.find('.vertical-slides .vslide');
+
+    $titleaction.click(function () {
+        if($(this).hasClass("title-pre")) {
+            $aboutme.find('.btns .pre').click();
+        } else if($(this).hasClass("title-next")) {
+            $aboutme.find('.btns .next').click();
+        }
+    });
 
     $slides.each(function (index, item) {
         var $item = $(item);
